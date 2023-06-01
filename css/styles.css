@@ -8,7 +8,7 @@ main {
 
 .image-container {
    position: relative;
-   width: 45vw;
+   width: 40vw;
    height: 100vh;
 }
 
@@ -18,13 +18,20 @@ main {
    object-fit: cover;
 }
 
-.image-text {
+.image-text-container {
    position: absolute;
    left: 0;
    top: 20%;
    width: 100%;
    background-color: rgba(0, 0, 0, 0.3);
    text-align: center;
+   height: 15vh;
+   display: flex;
+}
+
+.image-text {
+    align-items: center;
+    margin: auto;
 }
 
 .form-container {
