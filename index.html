@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="reset.css">
-    <title>Hogwarts School Sign-up</title>
-</head>
-<body>
-    <main>
-        <section class="image-container">
-            <img src="images/cant-Ipv_MNTzcQI-unsplash.jpg" alt="Hogwarts castle" class="img">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/reset.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <title>Hogwarts School Sign-up</title>
+   </head>
+   <body>
+      <main>
+         <section class="image-container">
+            <img
+               src="images/cant-Ipv_MNTzcQI-unsplash.jpg"
+               alt="Hogwarts castle"
+               class="image"
+            />
             <div class="image-text">
-                <p>Hogwarts School of Magic</p>
+               <p>Hogwarts School of Magic</p>
             </div>
-        </section>
-        <section>
-            <form action="">
-                <h1>Lets do this!</h1>
-                <section>
-                    <div>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
-                    </div>
-                    <div>
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div>
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" name="phone" id="phone">
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <label for="pwrd">PASSWORD</label>
-                        <input type="password" name="pwrd" id="password">
-                    </div>
-                    <div>
-                        <label for="confirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm" id="confirm">
-                    </div>
-                </section>
-                <section>
-                    <div>
-                        <button type="submit">Create Account</button>
-                    </div>
-                </section>
+         </section>
+         <section class="form-container">
+            <section>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+               praesentium at odio eligendi delectus aliquam necessitatibus
+               itaque pariatur cupiditate perspiciatis!
+            </section>
+            <form action="" id="form">
+               <h1>Lets do this!</h1>
+               <section>
+                  <div>
+                     <label for="first-name">FIRST NAME</label>
+                     <input type="text" name="first-name" id="first-name" />
+                  </div>
+                  <div>
+                     <label for="last-name">LAST NAME</label>
+                     <input type="text" name="last-name" id="last-name" />
+                  </div>
+               </section>
+               <section>
+                  <div>
+                     <label for="email">EMAIL</label>
+                     <input type="email" name="email" id="email" />
+                  </div>
+                  <div>
+                     <label for="phone">PHONE NUMBER</label>
+                     <input type="tel" name="phone" id="phone" />
+                  </div>
+               </section>
+               <section>
+                  <div>
+                     <label for="pwrd">PASSWORD</label>
+                     <input type="password" name="pwrd" id="password" />
+                  </div>
+                  <div>
+                     <label for="confirm">CONFIRM PASSWORD</label>
+                     <input type="password" name="confirm" id="confirm" />
+                  </div>
+               </section>
             </form>
-        </section>
-    </main>
-</body>
+            <section>
+               <div>
+                  <button type="submit" form="form">Create Account</button>
+               </div>
+               <div>
+                <p>Aready have an account? <a href="#">Log in</a></p>
+               </div>
+            </section>
+         </section>
+      </main>
+   </body>
 </html>
