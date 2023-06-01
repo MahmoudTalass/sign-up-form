@@ -1,23 +1,33 @@
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 main {
-    display: flex;
+   display: flex;
 }
 
 .image-container {
-    position: relative;
-    width: 45vw;
-    height: 100vh;
+   position: relative;
+   width: 45vw;
+   height: 100vh;
 }
 
 .image {
-    width: 100%;
-    height: 100%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.image-text {
+   position: absolute;
+   left: 0;
+   top: 20%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+   text-align: center;
 }
 
 .form-container {
-    width: 60vw;
-    height: 100vh;
+   width: 60vw;
+   height: 100vh;
 }
