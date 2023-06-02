@@ -1,11 +1,12 @@
 * {
    box-sizing: border-box;
+   font-family: "Raleway", sans-serif;
+   color: #fff;
 }
 
 main {
    display: flex;
 }
-
 
 /* Image style */
 
@@ -16,9 +17,9 @@ main {
 }
 
 figure {
-    position: relative;
-    height: 100%;
-    width: 100%;
+   position: relative;
+   height: 100%;
+   width: 100%;
 }
 
 .image {
@@ -39,45 +40,63 @@ figure {
 }
 
 .image-text {
-    align-items: center;
-    margin: auto;
+   align-items: center;
+   margin: auto;
 }
 
 figcaption {
-    display: block;
-    font-size: .9rem;
-    position: absolute;
-    bottom: 2vh;
-    width: 100%;
-    color: #fff;
-    text-align: center;
+   display: block;
+   font-size: 0.9rem;
+   position: absolute;
+   bottom: 2vh;
+   width: 100%;
+   color: #fff;
+   text-align: center;
 }
 
 figcaption a {
-    color: inherit;
+   color: inherit;
 }
-
 
 /* Form section styling */
 
 .form-container {
    width: 60vw;
    height: 100vh;
-   background-color: #1C1C1C;
-   color: #FFFFFF;
+   background-color: #1c1c1c;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   gap: 2.5rem;
 }
 
+/* Intro section styling */
+
 .intro-section {
-   height: 10vh;
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
 }
+
+.intro-content-container {
+   margin-left: 4rem;
+   width: clamp(45ch, 50%, 75ch);
+   line-height: 1.8rem;
+}
+
+.intro-content-container > h1 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   font-weight: 600;
+}
+
+/* Form section styling */
 
 .form-section {
    background-color: #333333;
    height: 35vh;
 }
+
+/* Action section styling */
 
 .action-section {
    height: 10vh;
