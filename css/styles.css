@@ -6,10 +6,19 @@ main {
    display: flex;
 }
 
+
+/* Image style */
+
 .image-container {
    position: relative;
    width: 40vw;
    height: 100vh;
+}
+
+figure {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .image {
@@ -33,6 +42,23 @@ main {
     align-items: center;
     margin: auto;
 }
+
+figcaption {
+    display: block;
+    font-size: .9rem;
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+figcaption a {
+    color: inherit;
+}
+
+
+/* Form section styling */
 
 .form-container {
    width: 60vw;
