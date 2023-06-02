@@ -65,4 +65,20 @@ figcaption a {
    height: 100vh;
    background-color: #1C1C1C;
    color: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.intro-section {
+   height: 10vh;
+}
+
+.form-section {
+   background-color: #333333;
+   height: 35vh;
+}
+
+.action-section {
+   height: 10vh;
 }
