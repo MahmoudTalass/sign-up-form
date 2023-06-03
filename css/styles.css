@@ -35,13 +35,29 @@ figure {
    width: 100%;
    background-color: rgba(0, 0, 0, 0.3);
    text-align: center;
-   height: 15vh;
+   padding: min(60px, 2rem);
    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   flex-wrap: wrap;
+}
+
+@font-face {
+   font-family: hogwarts;
+   src: url(../fonts/hogwarts-wizard.ttf);
 }
 
 .image-text {
    align-items: center;
-   margin: auto;
+   
+   font-size: clamp(1rem, 9vh, 3rem);
+   font-weight: 600;
+   font-family: hogwarts, sans-serif;
+}
+
+.owl-icon {
+   width: clamp(1rem, 10vh, 6rem);
 }
 
 figcaption {
