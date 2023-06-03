@@ -79,7 +79,6 @@ figcaption a {
 
 .intro-section {
    font-size:  clamp(1rem, 1.3vw, 1.3rem);
-   margin-bottom: 1rem;
 }
 
 .intro-content-container {
@@ -98,8 +97,8 @@ figcaption a {
 
 .form-section {
    background-color: #333333;
-   height: 36vh;
    display: flex;
+   padding: 2rem 0;
    align-items: center;
 }
 
@@ -141,9 +140,6 @@ figcaption a {
 input {
    width: 100%;
 }
-
-
-
 
 
 /* Action section styling */
