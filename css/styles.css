@@ -33,7 +33,7 @@ figure {
    left: 0;
    top: 20%;
    width: 100%;
-   background-color: rgba(0, 0, 0, 0.3);
+   background-color: rgba(0, 0, 0, 0.5);
    text-align: center;
    padding: 3.5rem;
 }
@@ -62,7 +62,8 @@ figcaption a {
    color: inherit;
 }
 
-/* Form section styling */
+
+/* Form side styling */
 
 .form-container {
    width: 60vw;
@@ -93,12 +94,44 @@ figcaption a {
    font-weight: 600;
 }
 
-/* Form section styling */
+/* Form styling */
 
 .form-section {
    background-color: #333333;
-   height: 35vh;
+   height: 36vh;
+   display: flex;
+   align-items: center;
 }
+
+.form-content {
+   margin-left: 4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 1.5rem;
+   height: 100%;
+   width: 70%;
+}
+
+.form-elements {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.form-elements > section {
+   display: flex;
+   gap: 3vw;
+}
+
+.form-elements > section > div {
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+
 
 /* Action section styling */
 
