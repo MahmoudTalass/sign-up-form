@@ -139,6 +139,12 @@ figcaption a {
 
 input {
    width: 100%;
+   min-width: 180px;
+   max-width: 300px;
+   color: #000;
+   height: 2rem;
+   border-radius: 4px;
+   border: none;
 }
 
 
