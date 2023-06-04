@@ -144,6 +144,15 @@ input {
 
 /* Action section styling */
 
-.action-section {
-   height: 10vh;
+.actions-container {
+   margin-left: 4rem;
+}
+
+.submit-btn {
+   background-color: #6f6a5e;
+   width: clamp(200px, 28%, 300px);
+   height: 2.7rem;
+   font-size: 1.1rem;
+   font-weight: 600;
+   border-radius: 7px;
 }
