@@ -150,7 +150,7 @@ input {
 
 .submit-btn {
    background-color: #6f6a5e;
-   width: clamp(200px, 28%, 300px);
+   width: clamp(180px, 28%, 250px);
    height: 2.7rem;
    font-size: 1.1rem;
    font-weight: 600;
